@@ -13,7 +13,7 @@ A multiplayer first-person shooter game based on Unity3D. Different types of inp
   * Input your **player name** and the **room name** you want to join
   * Click **'join or create room'** button to join a room or create a new room
   * The network connection state shows on the bottom left corner
-    ![img](Images/2.jpg)
+    ![img](Multiplayer-FPS-master/Images/2.jpg)
 
 * Game interface
   * **Player's HP** on the top left corner
