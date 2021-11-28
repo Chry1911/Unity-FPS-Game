@@ -20,7 +20,7 @@ A multiplayer first-person shooter game based on Unity3D. Different types of inp
   * The **message panel** on the bottom left corner, which shows status of other players (e.g. dead or respawn)
   * A **gun (AK-47)** is always shown on the bottom right corner in front of every thing you can see
   * A red **shooting sight** is always in the center of the screen
-  <img src="Images/3.jpg" style="width:500px"></img>
+  <img src="Multiplayer-FPS-master/Images/3.jpg" style="width:500px"></img>
 
 * Player models
   * All the original models and their animations were found from **[Mixamo](https://www.mixamo.com/)**, which is a pretty good game model website run by Adobe
@@ -28,7 +28,7 @@ A multiplayer first-person shooter game based on Unity3D. Different types of inp
     * **Policeman**: a policeman-like model with yellow skin
     * **RobotX**: a robot-like model with dark pink skin
     * **RobotY**: a robot-like model with dark blue skin
-    * <img src="Images/9.jpg" height="200px"></img> <img src="Images/11.jpg" height="200px"></img> <img src="Images/10.jpg" height="200px"></img>
+    * <img src="Multiplayer-FPS-master/Images/9.jpg" height="200px"></img> <img src="Multiplayer-FPS-master/Images/11.jpg" height="200px"></img> <img src="Multiplayer-FPS-master/Images/10.jpg" height="200px"></img>
 
   * **Animations**:
     * **Walk** towards four different directions
@@ -37,7 +37,7 @@ A multiplayer first-person shooter game based on Unity3D. Different types of inp
     * **Shoot** without affecting lower part body (**achieved by unity3d body mask**)
     * **Unity Blend Tree**
       * This makes the player walk or run more naturally. It uses interpolation function to map different combinations of user input to different animations.
-      * ![img](Images/4.jpg)
+      * ![img](Multiplayer-FPS-master/Images/4.jpg)
 
   * **State Machine**
     * There are multiple layers in the player state machine.
@@ -61,7 +61,7 @@ A multiplayer first-person shooter game based on Unity3D. Different types of inp
 * Gun model
   * The original gun model (AK-47) was from Unity Assets Store
   * **Shooting animation are added** by setting keyframes in unity3d animation panel
-  ![img](Images/12.jpg)
+  ![img](Multiplayer-FPS-master/Images/12.jpg)
 
 * Networking
   * This game uses **Photon Unity Networking 2**, which is a good network model from Unity Assets Store
@@ -69,22 +69,22 @@ A multiplayer first-person shooter game based on Unity3D. Different types of inp
 * Bullet effects
   * Bullets hitting different materials will cause different effects
     * Wood
-    <img src="Images/13.jpg" style="width:510px"></img>
+    <img src="Multiplayer-FPS-master/Images/13.jpg" style="width:510px"></img>
     * Ground
-    <img src="Images/14.jpg" style="width:510px"></img>
+    <img src="Multiplayer-FPS-master/Images/14.jpg" style="width:510px"></img>
     * Metal
-    <img src="Images/15.jpg" style="width:510px"></img>
+    <img src="Multiplayer-FPS-master/Images/15.jpg" style="width:510px"></img>
     * Concrete
-    <img src="Images/16.jpg" style="width:510px"></img>
+    <img src="Multiplayer-FPS-master/Images/16.jpg" style="width:510px"></img>
     * Water
-    <img src="Images/17.jpg" style="width:510px"></img>
+    <img src="Multiplayer-FPS-master/Images/17.jpg" style="width:510px"></img>
 
 * Door animation
   * Doors will automatically open when there is someone nearby and close when no one is around
   * Before opening
-  <img src="Images/18.jpg" style="width:550px"></img>
+  <img src="Multiplayer-FPS-master/Images/18.jpg" style="width:550px"></img>
   * After opening
-  <img src="Images/19.jpg" style="width:550px"></img>
+  <img src="Multiplayer-FPS-master/Images/19.jpg" style="width:550px"></img>
 
 ## Script files
 
@@ -116,7 +116,6 @@ A multiplayer first-person shooter game based on Unity3D. Different types of inp
   * Cheap and easy to use
 * Kinect
   * See below for details
-  * *This part was implemented by my friend [Ruochen Jiang](https://github.com/VHUCXAONG), many thanks to him!*
 * Xbox Controller
   * Like the combination of mouse and keyboard
   * Most Xbox games use this way to play
@@ -151,6 +150,6 @@ A multiplayer first-person shooter game based on Unity3D. Different types of inp
 * **View Rotation**:
   * Use your right hand as a virtual mouse to control the camera rotation. The game records the initial position of the left hand as the initial position of the mouse, then calculates the camera rotation by the left hand’s offset.
 
-* <img src="Images/skeleton_overview.png" style="width:110px"> </img><img src="Images/shooting.png" style="width:134px"></img> <img src="Images/jumping.png" style="width:122px"> </img><img src="Images/rotation.png" style="width:156px"></img>
+* <img src="Multiplayer-FPS-master/Images/skeleton_overview.png" style="width:110px"> </img><img src="Multiplayer-FPS-master/Images/shooting.png" style="width:134px"></img> <img src="Multiplayer-FPS-master/Images/jumping.png" style="width:122px"> </img><img src="Multiplayer-FPS-master/Images/rotation.png" style="width:156px"></img>
 
 
