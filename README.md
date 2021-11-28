@@ -41,10 +41,10 @@ A multiplayer first-person shooter game based on Unity3D. Different types of inp
 
   * **State Machine**
     * There are multiple layers in the player state machine.
-    * <img src="Images/5.jpg" style="width:420px"></img>
-    * <img src="Images/6.jpg" style="width:420px"></img>
-    * <img src="Images/7.jpg" style="width:420px"></img>
-    * <img src="Images/8.jpg" style="width:420px"></img>
+    * <img src="Multiplayer-FPS-master/Images/5.jpg" style="width:420px"></img>
+    * <img src="Multiplayer-FPS-master/Images/6.jpg" style="width:420px"></img>
+    * <img src="Multiplayer-FPS-master/Images/7.jpg" style="width:420px"></img>
+    * <img src="Multiplayer-FPS-master/Images/8.jpg" style="width:420px"></img>
 
 * Player movement
   * Walking && Running && Aiming
